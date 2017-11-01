@@ -1,0 +1,117 @@
+  <!DOCTYPE html>
+<html>
+<head>
+	<title>Harold Perez</title>
+	<!--
+	<link rel="stylesheet" type="text/css" href="style.css">
+	-->
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0;
+			font-family: verdana;
+		}
+
+		h1 {
+			font-family: verdana;
+		}
+		p {
+			display: inline-block;
+			width: 30%;
+		}
+		section {
+			display: inline-block;
+			width: 30%;
+			border: solid 5px #FA0000;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		/* Padding is the space within the borders, margin is the space outside the border */
+		section h1 {
+			text-align: center;
+		}
+		section:hover {
+			background-color: orange;
+			text-decoration: none;
+			padding: 30px;
+			text-align: center;
+		}
+		.UandG {
+			 color: white;
+		}
+		.BandI {
+			font-weight: 900;
+			font-style: italic;
+		}
+		h2.makebig {
+			font-size:100px
+		}
+		h3.makebig {
+			font-size: 60px;
+		}
+		#feet {
+			color: white;
+		}
+		a:visited {
+			color: #FF00FF;
+		}
+		a:link {
+			color: white;
+		}
+
+		@media screen and (max-width: 500px){
+			body {
+				background-color: red;
+			}
+		}
+		/*
+		section {
+			display: block;
+			width: 100%;
+		}
+		*/
+		/* CSS-Tricks.com /*
+	</style>
+</head>
+<body bgcolor="#193a70" style="color: #FFFFFF">
+	<h1 style="color: red;">Welcome!</h1>
+	<h1>Aspiring Web Developer</h1>
+
+	<h1 style="position: absolute; top: 175px; left: 40%">Harold Perez</h1>
+	<h1 style="position: fixed; top: 0px; right: 15px;"><a href="mailto:harold.perez1190@gmail.com">Harold.Perez1190@gmail.com</a></h1>
+
+	<!-- Research Static, Relative, Fixed & Absolute -->
+	
+	<br><br><br><br><br>
+	
+	<section>
+		<h1 class="UandG">About Me</h1>
+		<h4>
+I have leveraged the technology surrounding the sharing economy as a driver for ride sharing companies like Uber, Lyft and Juno. In addition, I use software like Adobe Creative Suite to design apparel, and utilize social media platforms like Instagram to promote and sell. Now, I am ready to create software and tech platforms to help others. With the Web Development Fellowship, I intend to learn the advanced skills needed secure a job at tech companies that intersect with the fashion, sports, and travel industries. 
+</h4>
+	</section>
+	<section>
+		<h1 class="UandG">Experience</h1>
+		<h4>HTML, CSS, JavaScript, Python</h4>
+	</section>
+
+	<div align="center" class="section">
+	<h1><span>Contact Me</span></h1>
+	<form>
+		<input name="name" placeholder="Name" type="text" required /><br>
+		<input name="email" placeholder="Email" type="email" required /><br>
+		<textarea name="message" placeholder="Message" required ></textarea>
+		<input type="submit" value="SUBMIT" class="submit" />
+	</form>
+	</div>
+
+	<br><br><br>
+	
+	<!-- No 2 elements should have the same ID -->
+	<div align="center" class="copyright">
+		&copy; 2017 All rights reserved
+	</div>
+</body>
+</html>
